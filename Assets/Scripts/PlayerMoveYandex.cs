@@ -16,7 +16,7 @@ public class PlayerMoveYandex : MonoBehaviour
             _animator.SetBool("Run", true);
         }
 
-        if (Input.GetMouseButton(0))
+        if (!Input.GetMouseButton(0))
         {
             Vector3 newPosition = transform.position + transform.forward * Time.deltaTime * _speed;
             newPosition.x = Mathf.Clamp(newPosition.x, -2.5f, 2.5f);
