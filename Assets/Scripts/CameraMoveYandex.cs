@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMove : MonoBehaviour
+public class CameraMoveYandex : MonoBehaviour
 {
 
     [SerializeField] private Transform _target;
